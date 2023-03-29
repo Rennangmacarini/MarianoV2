@@ -3,6 +3,11 @@ import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 
 import styles from "./styles.module.scss";
+import encarteOne from '../../../public/image/encarte-1.png'
+import encarteTwo from '../../../public/image/encarte-2.png'
+import encarteThree from '../../../public/image/encarte-3.png'
+import encarteFour from '../../../public/image/encarte-4.png'
+import Image from "next/image";
 
 export function Ofertas() {
   const [ref] = useKeenSlider<HTMLDivElement>({
@@ -18,22 +23,22 @@ export function Ofertas() {
       <div className={styles.carousel}>
         <div ref={ref} className="keen-slider">
           <div className="keen-slider__slide number-slide1">
-            <img src={"./image/encarte-1.png"} alt="" />
+            <Image src={encarteOne} alt="" />
           </div>
           <div className="keen-slider__slide number-slide1">
-            <img src={"./image/encarte-2.png"} alt="" />
+            <Image src={encarteTwo} alt="" />
           </div>
           <div className="keen-slider__slide number-slide1">
-            <img src={"./image/encarte-3.png"} alt="" />
+            <Image src={encarteThree} alt="" />
           </div>
           <div className="keen-slider__slide number-slide1">
-            <img src={"./image/encarte-4.png"} alt="" />
+            <Image src={encarteFour} alt="" />
           </div>
           <div className="keen-slider__slide number-slide1">
-            <img src={"./image/encarte-1.png"} alt="" />
+            <Image src={encarteOne} alt="" />
           </div>
           <div className="keen-slider__slide number-slide6">
-            <img src={"./image/encarte-2.png"} alt="" />
+            <Image src={encarteTwo} alt="" />
           </div>
         </div>
       </div>
