@@ -131,11 +131,13 @@
             .text {
                 width: 400px;
             }
+
             img {
                 width: 400px;
                 height: 300px;
             }
         }
+
         .contentEmpresa {
             width: 450px;
         }
@@ -154,13 +156,13 @@
     .container {
 
         .content {
-             .text {
-                  width: 350px;
-             }
+            .text {
+                width: 350px;
+            }
 
-             img{
+            img {
                 width: 380px;
-             }
+            }
         }
 
 
@@ -168,10 +170,45 @@
             .text {
                 width: 380px;
             }
+
             img {
                 width: 380px;
                 height: 270px;
             }
         }
     }
+}
+
+
+@media(max-width: 400px) {
+    .container {
+
+        .content {
+            .text {
+                width: 300px;
+            }
+
+            img {
+                width: 330px;
+            }
+        }
+
+
+        .contentFirst {
+            .text {
+                width: 330px;
+            }
+
+            img {
+                width: 330px;
+                height: 270px;
+            }
+        }
+
+        .contentEmpresa {
+            width: 330px;
+        }
+
+    }
+
 }

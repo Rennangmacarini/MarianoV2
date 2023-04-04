@@ -74,3 +74,36 @@
 
     }
 }
+
+@media(max-width: 500px){
+    .container {
+        h1 {
+            font-size: 1.3rem;
+        }
+    }
+    
+    .stores {
+        .content {
+            img{
+                width: 350px;
+                height: 350px;
+                object-fit: cover;
+            }
+            .text {
+                width: 330px;
+                h2 {
+                    font-size: 1.2rem;
+                }
+    
+                a {
+                    font-size: 1rem;
+                }
+    
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+    
+    }
+}
