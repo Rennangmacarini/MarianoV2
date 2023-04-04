@@ -16,9 +16,10 @@ export function Header() {
   return (
     <>
        <div onClick={handleOpen} className={styles.imgmobile}>
+       <img src={openMenu ? "./image/menux.png" : "./image/menu.png"} alt="" />
        </div>
       <div className={styles.header}>
-        <Image src={logo} alt="Logo" />
+        <Image src={logo} alt="Logo"/>
         <div className={styles.menu}>
           <Link href={"/"}>INÍCIO</Link>
           <Link href={"/about"}>QUEM SOMOS</Link>
